@@ -1,0 +1,38 @@
+[GENERAL]
+ProjectName=ct_scan_parameter_template
+Scanner=University of Helsinki Industrial Mathematics Computed Tomography Laboratory
+Measurers=N.N.
+Date=20201201
+DateFormat=YYYYMMDD
+
+[GEOMETRY]
+GeometryType=Cone
+DistanceSourceDetector=553.74
+DistanceSourceOrigin=410.66
+DistanceUnit=mm
+
+[ACQUISITION]
+NumberImages=721
+AngleFirst=0
+AngleInterval=0.5
+AngleLast=360
+
+[DETECTOR]
+Detector=Hamamatsu Photonics C7942CA-22
+DetectorType=EID
+Binning=1x1
+PixelSize=0.050
+PixelSizeUnit=mm
+ExposureTime=1000
+ExposureTimeUnit=ms
+
+[XRAY]
+Tube=Oxford Instruments XTF5011
+Target=Mo
+Voltage=45
+VoltageUnit=kV
+Current=1
+CurrentUnit=mA
+XRayFilter=None
+XRayFilterThickness=N/A
+XRayFilterThicknessUnit=mm
